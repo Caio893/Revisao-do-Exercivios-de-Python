@@ -4,3 +4,6 @@ Testando Git e Github para aprendizado.
 
 
 Agora eu mudei a ordem de teste aqui é pelo VS
+
+
+Pront agora estou atualizando pelo site para motivos de aprendizado novamente. !!!
