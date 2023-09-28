@@ -34,3 +34,8 @@ Aqui é minha ação definitiva de aprender python não é tentativa é a defini
 [] Trinei depois de amanã ?
 
 [] Terminei o Curso de GitHub ?
+
+# Como é o Markdown de Tabela ?
+
+|---|---|---|
+|Caio|6|Homem|
