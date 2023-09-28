@@ -29,9 +29,9 @@ Aqui é minha ação definitiva de aprender python não é tentativa é a defini
 
 [x] Treino hoje
 
-[] Trinei Amanhã ?
+[] Treinei Amanhã ?
 
-[] Trinei depois de amanã ?
+[] Treinei depois de amanã ?
 
 [] Terminei o Curso de GitHub ?
 
