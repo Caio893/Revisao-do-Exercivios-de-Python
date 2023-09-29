@@ -41,15 +41,14 @@ Aqui é minha ação definitiva de aprender python não é tentativa é a defini
 >Pronto
 >Agora
 
-# Para citações de códigos usar os ˋˋˋ pode também adicionar ~~~python para especificar o tipo de linguagem.
+### Para citações de códigos usar os ˋˋˋ pode também adicionar ~~~python para especificar o tipo de linguagem.
 
 ~~~Python
+~~~
+Aqui é Python 
 
-ˋˋˋ
 print('Hello World')
 a = int(input('Digite um valor'))
-
-ˋˋˋ
 ~~~
 
 ~~~PHP
@@ -65,7 +64,7 @@ Aqui é Javascript
 ~~~
 
 
-# Tabelas em Markdown são simples
+### Tabelas em Markdown são simples
 
 Notas | Nome | Cidade | Idade
 ---|---|---|---|
@@ -76,4 +75,4 @@ Notas | Nome | Cidade | Idade
 8 | João Pedro | RJ | 26
 10| Pessoa perfeita | PR | 18
 
-# Acho que até aqui é o suficiente de Markdown necessário para trabalho e estudos.
+## Acho que até aqui é o suficiente de Markdown necessário para trabalho e estudos.
