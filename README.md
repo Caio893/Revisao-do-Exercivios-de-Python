@@ -44,21 +44,15 @@ Aqui é minha ação definitiva de aprender python não é tentativa é a defini
 ### Para citações de códigos usar os ˋˋˋ pode também adicionar ~~~python para especificar o tipo de linguagem.
 
 ~~~Python
-~~~
-Aqui é Python 
-
 print('Hello World')
 a = int(input('Digite um valor'))
 ~~~
-
 ~~~PHP
 Aqui é PHP
 ~~~
-
 ~~~html
 Aqui é HTML
 ~~~
-
 ~~~javascript
 Aqui é Javascript
 ~~~
