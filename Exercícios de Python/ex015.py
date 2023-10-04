@@ -1,0 +1,7 @@
+print('Desafio 16')
+km = float(input('Qual foi a quantidade de KM percorridos pelo carro: '))
+dia = int(input('Quantos dias ele ficou alugado: '))
+preçokm = float(input('Digite o Preço do KM: '))
+preçodia = float(input('Digite o Preço do Dia '))
+valor = (km * preçokm) + (dia * preçodia)
+print(f'O valor a pagar do carro pelos dias e KM rodados é de R${valor:.2f}')
