@@ -1,6 +1,5 @@
-print('Desafio 26')
-nome = str(input('Digite uma frase: ')).strip().lower()
-print(f'Existe {nome.count("a")} Letras a nesse nome\n'
-      f'A primeira Letra a aparece na posição {nome.find("a")+1}\n'
-      f'E a ultima letra a aparece na posição {nome.rfind("a")+1}\n')
+analise_string = str(input('Type something: ')).strip().upper()
+print(f'\nThe letter A show {analise_string.count("A")}'
+      f'\nThe first letter A aper. {analise_string.find("A")+1}'
+      f'\nAnd the last letter A aper. {analise_string.rfind("A")+1}')
 

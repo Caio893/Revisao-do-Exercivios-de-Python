@@ -1,8 +1,6 @@
-print('Desafio 22')
-nome = str(input('Qual o nome da pessoa: ')).strip().upper()
-print(f'{nome.upper()}\n'
-      f'{nome.lower()}\n'
-      f'{len(nome.replace(" ", ""))}')
-nome = nome.split()
-print(len(nome[0]))
-      ##f'{nome.split(len[nome[0]])}\n')
+name = str(input('Digit your name: ')).strip()
+print(name.upper())
+print(name.lower())
+print(len(name.replace(' ', '')))
+count_name = name.split()
+print(len(count_name[0]))

@@ -1,7 +1,5 @@
-print('---Desafio 49---')
-numero = int(input('Digite o número que você quer sabe a sua tabua.n\-> '))
-for tabuada in range(0, 11, 1):
-    resultado = numero * tabuada
-    print(f'{numero} x {tabuada} = {resultado}')
-
-print('FIM')
+numero = int(input('Digite o Numero para saber a sua tabuada até 10: '))
+print(f'Essa é a Tabuada de {numero}')
+for c in range(0, 11):
+    resultado = numero * c
+    print(f'{numero} x {c} = {resultado}')

@@ -1,9 +1,6 @@
-print('--Desafio 29--')
-velocidade = float(input('Qual a velocidade do veículo: '.strip()))
-multa = (velocidade-80)*7
-acima = velocidade-80
-if velocidade >=81.0:
-    print(f'{velocidade}KM/h Você ultrapassou o limete de velocidade em {acima}KM/h vai ter que pagar R${multa} de multa')
-else:
-    print(f'{velocidade} Parabéns você está dentro do limete de velocidade.')
-
+speed = float(input('Enter with speed car: '))
+if speed >= 81:
+    multa = (speed-80)*7
+    print(f'You are over speed limit of 80km/h'
+          f'\nYou may pay a multa of $7 for each 7km/h above of limit, and total is ${multa}')
+print('Thank you!')

@@ -1,4 +1,3 @@
-print('Desafio 25')
-nome = str(input('Qual é o seu nome: ')).strip().lower()
-silva = nome.split()
-print(f'{"silva" in silva}')
+name = str(input('Digit your name: ')).strip().upper()
+name_silva = 'SILVA' in name
+print(f'Do you have Silva in your name ? \n{name_silva}')

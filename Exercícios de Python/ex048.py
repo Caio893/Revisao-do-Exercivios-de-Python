@@ -1,8 +1,7 @@
-print('---Desafio 48---')
-soma = 0
-valores = 0
-for c in range(1, 501, 2):
-    if c % 3 == 0:
-        soma += c
-        valores += 1
-print(f'A soma de todos os {valores} solicitados é {soma}')
+s = 0
+contador = 0
+for c in range(0, 501,3):
+    if c % 2 == 1:
+        s += c
+        contador += 1
+print(f'A soma de todos os {contador} valores  é de {s}', end=' ')

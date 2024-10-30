@@ -1,8 +1,10 @@
-print('--Desafio 28---')
 from random import randint
-pc = randint(1, 10)
-pessoa = int(input('Vamos jogar um jogo, eu estou pensando em um numero de 1 até 10 me diga qual é esse numero: '))
-if pessoa == pc:
-    print(f'Acertou misseravel você disse {pessoa} e eu pensei exatamente {pc} como você sabia ?')
+answer = int(input('Tente adivinhar qual número o computador está pensando.'
+                   '\nDigite um número:'))
+random = randint(1, 5)
+if random != answer:
+    print('Você errou tente novamente.')
 else:
-    print(f'Errou você disse {pessoa} e eu pensei em {pc} tente novamente.')
+    print(f'Parabéns você acertou o computador pensou no número {random} e você {answer}')
+print('Aperte Ctrl+F5 para jogar novamente.')
+print(random)

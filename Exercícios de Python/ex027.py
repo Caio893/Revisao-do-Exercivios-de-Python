@@ -1,5 +1,5 @@
-print('Desafio 27')
-nome = str(input('Digite seu nome completo =>')).strip().lower()
-nome2 = nome.split()
-nome3 = nome.rsplit()
-print(f'O Seu nome completo é {nome} e Seu primeiro nome é {nome2[0].capitalize()} e seu ultimo nome é {nome3[-1].capitalize()}')
+name = str(input('Digit your name: '))
+name2 = str(name).strip().split()
+print(f'\nHello {name}'
+      f'\nYour First name is {name2[0]}'
+      f'\nAnd your last name is {name2[-1]}')

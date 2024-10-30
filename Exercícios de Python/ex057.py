@@ -1,16 +1,14 @@
-print('Desafio 57'.center(16, "-"))
-'''sexo = ''
-while sexo != "M" and sexo != "F":
-    sexo = input('Qual o sexo da pessoa. Digite M para Masculino ou F para Feminino.\n[M/F]:').upper().strip()[0] #o [0]Só esta pegando a primeira letra
-    if "M" or "F":
-        if sexo == 'M':
-            print(f'O sexo mencionado foi Masculino')
-        elif sexo == 'F':
-            print(f'O sexo mencionado foi Feminino')
-        else:
-            print(f'Errado. {sexo} não é válido porfavor coloque M para Masculino ou F para Feminino')
-print('FIM')'''
-sexo = str(input('Qual é seu sexo: [M/F] ')).upper().strip()[0]
-while sexo not in 'MF':
-    sexo = str(input('Dados inválidos. Por favor, informe seu sexo: ')).split().upper()[0]
-print(f'Seu {sexo} registrado com sucesso.')
+from random import randint
+sorte = randint(0, 10)
+jogada = 0
+tentativas = 0
+while sorte != jogada:
+    jogada = int(input('Digite o numero que o PC está pensando: '))
+    if jogada < sorte:
+        print(f'Tente um número maior que {jogada}')
+        tentativas += 1
+    if jogada > sorte:
+        print(f'Tente um numero menor que {jogada}')
+        tentativas += 1
+print(f'Você acertou o número que o PC estava pensando era {sorte} '
+      f'Você levou {tentativas} para acerta')

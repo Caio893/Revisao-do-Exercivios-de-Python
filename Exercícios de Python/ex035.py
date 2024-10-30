@@ -1,9 +1,7 @@
-print('--Desafio 35--')
-a = float(input('Digite o valor de A: '))
-b = float(input('Digite o valor de B: '))
-c = float(input('Digite o valor de C: '))
-if (b - c) < a < b + c and (a - c) <b < a + c and (a - b) < c < a + b:
-    print('É possivel fazer um Triangulo')
+lado_a = float(input('Qual o lado a: '))
+lado_b = float(input('Qual o lado b: '))
+lado_c = float(input('Qual o lado c: '))
+if lado_a + lado_b > lado_c and lado_b + lado_c > lado_a and lado_c and lado_a > lado_b:
+    print(f'Os lados formando um tirangulo')
 else:
-    print('Não é possivel formar um triangulo')
-print(19//2)
+    print(f'Não é possivel forma um triangulo com esses lados')

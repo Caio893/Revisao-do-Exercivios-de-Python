@@ -1,20 +1,14 @@
-frase = str(input('Digite uma frase:')).strip().upper()
-palavras = frase.split()
-junto ="".join(palavras)
-inverso = ""
-for letra in range(len(junto) -1, -1, -1):
-    inverso += junto[letra]
-    print(junto, inverso)
-if inverso == junto:
-    print('Temos um Palíndromo')
-else:
-    print('A frase digitada não é um palíndromo')
-'''print('---Desafio 53---') #fiz do meu jeito sem for
-nome = str(input('Diga um nome ou palavra para vermos se é PALÍNDROMO\n-> ')).upper().strip().replace(" ", "")
-palidromo = nome[::-1]
-if nome == palidromo:
-    print(f'É um Palíndromo {palidromo}')
-else:
-    print(f'A palavra não é um Palíndromo {nome} e {palidromo} ')
-print(palidromo)
-print(nome)'''
+from datetime import datetime
+contador = 0
+maior = 0
+menor = 0
+atual = datetime.today().year
+for c in range(0, 7):
+    contador += 1
+    nascimento = int(input(f'Qual o ano de nascimento da {contador}ª: '))
+    if atual - nascimento < 18:
+        maior += 1
+    else:
+        menor += 1
+print(f'Ao todo tivemos {menor}ª com mais de 18 anos')
+print(f'Ao todo tivemos {maior}ª com menos de 18 anos de idade')

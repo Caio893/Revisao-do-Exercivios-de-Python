@@ -1,4 +1,4 @@
-print('Desafio 24')
-cidade = str(input('Você nasceu na cidade de Santo? ')).strip().upper()
-santo = cidade.split()
-print(f'{"SANTO" in santo[0:1]}')
+city = str(input('Digit name of your city: ')).strip().upper().split()
+city_santos = 'SANTOS' in city[0]
+print(city_santos)
+

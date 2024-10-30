@@ -1,7 +1,6 @@
-print('--Desafio 30--')
-num = int(input('Digite um numero para vermos se ele é par ou ímpar:\n -->'))
-par = num % 2
-if par == 0:
-    print('Esse numero é par')
+numero = int(input('Vamos descobrir se o numeor que você digitou é ímpar ou par: '))
+if numero % 2 != 0:
+    print(f'O número {numero} é ímpar')
 else:
-    print('É ímpar')
+    print(f'O número {numero} par')
+

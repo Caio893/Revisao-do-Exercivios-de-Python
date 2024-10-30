@@ -1,9 +1,9 @@
-print('--Desafio 33--')
-import datetime
-ano = int(input('Qual ano você gostaria de sabe que é bissexto?\n--> '))
+from datetime import date
+ano = int(input('Digite o ano para sabermos se ele é bisexto ou coloque 0 para analisar o ano atual: '))
 if ano == 0:
-    ano = datetime.date.today().year
+    ano = date.today().year
 if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
-    print(f'{ano} É um ano bissexto')
+    print(f'O ano de {ano} é Bisexto')
 else:
-    print(ano)
+    print(f'O ano de {ano} não é bisexto')
+print('Obrigado')

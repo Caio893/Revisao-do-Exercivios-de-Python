@@ -1,20 +1,26 @@
-print('Desafio 58'.center(16, '#'))
-
-from random import randint
-
-print('Olá sou seu computador configurado em código pobre e ruim, tente adivinhar qual número o radint colocou no minha variavel.')
-
-pc = randint(0, 10)
-player = int(input('Qual o número você acha que o PC está pensando ?\n-> '))
-tentativas = 0
-
-while player != pc:
-    print(f'Tente novamente parece que o PC não pensou nesse número!')
-    if player > pc:
-        print(f'Menos... Tente novamente')
+encerrar = False
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+while not encerrar:
+    print(f'Escolha a opção: \n[1] Somar\n[2] Multiplicar\n[3] Dividir\n[4] Novos Números\n[5] Encerrar\n')
+    option = int(input('Opção: '))
+    if option == 5:
+        encerrar = True
     else:
-        print(f'Mais... Tente novamente')
-    player = int(input('->'))
-    tentativas += 1
-print(f'Parabéns você acertou o PC estava pensando em {pc} e você escreveu {player}'
-      f' Foram necessária {tentativas} tentativas')
+        if option == 1:
+            soma = n1 + n2
+            print(f'A soma de {n1} + {n2} é {soma}')
+        elif option == 2:
+            multiplicar = n1 * n2
+            print(f'A multiplicação de {n1} e {n2} é {multiplicar}')
+        elif option == 3:
+            dividir = n1 / n2
+            print(f'A divisão de {n1} e {n2} é {dividir}')
+        elif option == 4:
+            novo_n1 = int(input('Digite um novo número: '))
+            n1 = novo_n1
+            novo_n2 = int(input('Digite um novo número: '))
+            n2 = novo_n2
+print('Obrigado !')
+
+

@@ -1,6 +1,4 @@
 from time import sleep
-print('---Desafio 46---')
-for regressiva in range(10, 0, -1):
+for c in range(10, -1,-1):
     sleep(1)
-    print(regressiva)
-print('ANO NOVO')
+    print(f'Contagem Regressiva em {c}')

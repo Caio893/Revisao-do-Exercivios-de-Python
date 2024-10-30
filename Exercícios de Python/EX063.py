@@ -1,14 +1,12 @@
-print(f'Desafio 63'.center(64, '@'))
-termos = int(input('Qual o primeiro termos\n ->'))
-c = 0
-ultimo = 0
-penultimo = 1
-if termos == 1 or termos == 2:
-    print(f'O valor é 1')
-else:
-    while c <= termos:
-        c += 1
-        termo = ultimo + penultimo
-        penultimo = ultimo
-        ultimo = termo
-        print(termo)
+n1 = int(input('Digite um número: '))
+fibo = 0
+cont2 = 1
+resultado = 0
+cont = 0
+while cont != n1:
+    print(f'{resultado}->',end=' ')
+    cont += 1
+    resultado = fibo + cont2 #Aqui é o Resultado da soma inicial fibo como 0 e count como 2
+    cont2 = fibo #Aqui o count2 armazena o fibo antes dele ter o valor alterado pelo resultado
+    fibo = resultado #Aqui o fibo é alterado pelo resultado
+print('FIM')
