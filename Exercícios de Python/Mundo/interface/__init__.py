@@ -1,3 +1,8 @@
+from time import sleep
+from final import *
+from interface import *
+
+
 def leiaInt(msg):
     while True:
         try:
@@ -31,6 +36,3 @@ def menu(lista):
     print(linha())
     opc = leiaInt('\033[32mSua Opção: \033[m')
     return opc
-
-def bi():
-    print('s')

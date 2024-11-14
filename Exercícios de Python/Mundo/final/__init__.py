@@ -7,6 +7,7 @@ def arqExiste(nome):
     else:
         return True
 
+
 def criarArquivo(nome):
     try:
         a = open(nome, 'wt+')
@@ -17,6 +18,7 @@ def criarArquivo(nome):
         print(f'Arquivo {nome} criado com sucesso!')
 
 
+
 def lerAquivo(nome):
    try:
        a = open(nome, 'rt')
@@ -24,3 +26,4 @@ def lerAquivo(nome):
        print('Erro ao ler o arquivo!')
    else:
        cabeçalho
+

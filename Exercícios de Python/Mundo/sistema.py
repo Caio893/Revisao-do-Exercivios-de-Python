@@ -1,8 +1,9 @@
-from teste2 import *
-from arquivo import *
 from time import sleep
+from final import *
+from interface import *
 
 arq = 'tabela.txt'
+
 if not arqExiste(arq):
     criarArquivo(arq)
     print('Arquivo encontrado com sucesso!')
@@ -14,7 +15,11 @@ while True:
     if resposta == 1:
         print('Opção 1')
     elif resposta == 2:
-        print('Opção 2')
+        cabeçalho('NOVO CADASTRO')
+        nome = str(input('Nome: '))
+        idade = leiaInt('Idade: ')
+        cadastrar(aqr, nome, idade)
+
     elif resposta == 3:
         print('Saindo do sistema... Até Logo!')
         break
